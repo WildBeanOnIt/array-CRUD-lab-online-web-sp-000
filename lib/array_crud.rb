@@ -7,15 +7,15 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  create_an_array.push("arrays!")
+  add_element_to_end_of_array.push("arrays!")
 end
 
 def add_element_to_start_of_array(array, element)
-  create_an_array.unshift("wow")
+  add_element_to_start_of_array.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
-  create_an_array.delete("arrays!")
+  remove_element_from_end_of_array.delete("arrays!")
 end
 
 def remove_element_from_start_of_array(array)
